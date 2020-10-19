@@ -16,17 +16,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
-/*
-
 .orange-text {
-  color: #f7bd0d !important;
+  color: #fcc201 !important;
 }
 
 .orange {
-  background-color: #f7bd0d !important;
+  background-color: #fcc201 !important;
 }
 
-*/
 .black {
   background-color: #1a1a1a !important;
 }
