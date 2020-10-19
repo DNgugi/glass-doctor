@@ -1,6 +1,10 @@
 body {
   font-size: 1.2em;
-  background-color: #e0e0e0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Yeseva One", cursive;
 }
 
 .icon-block {
@@ -62,5 +66,5 @@ body {
 .feature__main {
   padding-top: 3em;
   padding-bottom: 3em;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
