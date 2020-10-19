@@ -29,7 +29,9 @@
 
 */
 
-
+.black {
+  background-color: #1a1a1a !important;
+}
 
 .logo{
   max-height: 50px;
@@ -55,7 +57,11 @@
 
   &__container{
     padding: 1em;
+    display: grid;
+    align-items: center;
   }
+
+  
 }
 
 .card{

@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 */
+.black {
+  background-color: #1a1a1a !important;
+}
+
 .logo {
   max-height: 50px;
   width: auto;
@@ -52,6 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero__container {
   padding: 1em;
+  display: grid;
+  align-items: center;
 }
 
 .card {
