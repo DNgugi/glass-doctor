@@ -34,10 +34,12 @@
 }
 
 .logo{
-  max-height: 50px;
+  max-height: 90px;
   width: auto;
 }
-
+nav{
+  height: 100px;
+}
 .hero{
   position: relative; //So we can set pseudo background.
   height: 100vh;
