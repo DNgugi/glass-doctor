@@ -1,10 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 body {
   font-size: 1.2em;
   background-color: #e0e0e0;
@@ -19,10 +12,23 @@ body {
 }
 
 .hero {
-  background-image: url("/img/hero-2.jpg");
-  background-size: cover;
+  position: relative;
   height: 100vh;
   padding-top: 10%;
+}
+.hero::after {
+  content: " ";
+  background-image: url("https://design.me.ke/GLASSDOCTOR/wp-content/uploads/2020/09/IMG-20200825-WA0079.jpg");
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.4;
 }
 .hero__container {
   padding: 1em;
